@@ -2,14 +2,14 @@
 def f(x):
     return 1 # your f(x) here
 
-def f_asterisk(x):
+def f_prime(x):
     return 1 # your f'(x) here
 
 x = 1 # starting point
 
 for i in range(15):
     print(f"Step: {i} = {x}")
-    x = x - f(x) / f_asterisk(x)
+    x = x - f(x) / f_prime(x)
 
 # output:
 # f(x) = x ** 3 - 5 * x ** 2 + 8 * x - 5
